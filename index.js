@@ -4,7 +4,7 @@ import express from "express";
 
 const app=express();
 const PORT=3000;
-var API_KEY="4f5a2327dbf984d3afaec23359a1d546";
+var API_KEY;  // Enter your Weatherstack API Key here
 
 app.use(bodyParser.urlencoded({extended:true}));
 
